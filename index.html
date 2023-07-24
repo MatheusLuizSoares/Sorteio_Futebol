@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Torneio de Futebol</title>
+</head>
+<body>
+  <header>
+    <h1>Torneio de Futebol</h1>
+  </header>
+
+  <div class="groups">
+    <h2>Fase de Grupos</h2>
+    <div class="group" id="groupA">
+      <h3>Grupo A</h3>
+      <ul id="groupATeams"></ul>
+    </div>
+    <div class="group" id="groupB">
+      <h3>Grupo B</h3>
+      <ul id="groupBTeams"></ul>
+    </div>
+  </div>
+
+  <div class="knockout">
+    <h2>Oitavas de Final</h2>
+    <ul id="knockoutTeams"></ul>
+    <button onclick="drawOitavas()">Sortear Oitavas</button>
+  </div>
+
+  <footer></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
